@@ -67,7 +67,7 @@ export const projects: Project[] = [
     role: "ML & Frontend",
     domain: "Computer Vision / MarTech",
     accent: ["#e0563f", "#3a1108"],
-    liveUrl: "",
+    liveUrl: "https://ad-pulse-one.vercel.app/",
     repoUrl: "https://github.com/adnanquraishee/AdPulse",
     summary:
       "An AI tool that analyses advertisements — images and video — in detail to evaluate their effectiveness, scoring what is actually in the creative rather than offering a surface-level review.",
@@ -255,7 +255,7 @@ export const projects: Project[] = [
     role: "Full-stack & AI",
     domain: "AI Tooling",
     accent: ["#e11d48", "#330612"],
-    liveUrl: "",
+    liveUrl: "https://brainfuel-five.vercel.app/",
     repoUrl: "https://github.com/adnanquraishee/brainfuel",
     summary:
       "An AI-powered homework solver that extracts questions from PDFs and generates professional, step-by-step solutions with properly formatted mathematics and diagrams — processing entire assignments and exporting them as polished Word documents ready for submission.",
@@ -287,7 +287,7 @@ export const projects: Project[] = [
     role: "Full-stack",
     domain: "Social Impact",
     accent: ["#6ea832", "#17280a"],
-    liveUrl: "",
+    liveUrl: "https://mazdoormitra.vercel.app/",
     repoUrl: "https://github.com/adnanquraishee/Mazdoor-Mitra",
     summary:
       "A platform connecting daily-wage workers with contractors through digital contracts, protecting workers from wage theft and ensuring fair payment — with a bilingual Hindi/English interface and minimum-wage validation built in to empower informal labourers in India.",

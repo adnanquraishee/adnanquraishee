@@ -43,20 +43,29 @@ Currently pursuing a PGDM in Business Analytics (Minor: Finance) at Jagdish Shet
 **MoneyMood.ai** – AI Equity Intelligence Platform  
 Real-time stock analysis platform for Indian equities with price forecasts and screening tools
 
-**AdPulse** – AI Advertisement Analyzer  
+**[AdPulse](https://ad-pulse-one.vercel.app/)** – AI Advertisement Analyzer  
 Evaluates creative effectiveness by analyzing ad images and videos
+
+**BioQorp**  
+*Description to be added*
 
 **PulseMonitor** – Clinical Decision Support  
 ML system predicting in-hospital cardiac-arrest risk with AI-generated explanations
 
-**PortfolioBuilderX** – Resume-to-Portfolio Tool  
+**[KnowYourCourse](https://kyc-ruby-tau.vercel.app/)**  
+*Description to be added*
+
+**[PortfolioBuilderX](https://portfolio-builder-x-rho.vercel.app/)** – Resume-to-Portfolio Tool  
 Converts resume PDFs into animated portfolio websites using AI
 
-**MazdoorMitra** – Digital Contracting Platform  
+**[MazdoorMitra](https://mazdoormitra.vercel.app/)** – Digital Contracting Platform  
 Bilingual platform connecting workers with contractors, with wage validation
 
 **Crooked Key** – Real-Time Multiplayer Game  
 Full-stack hidden-traitor game with 3D graphics and real-time server logic
+
+**[Brainfuel](https://brainfuel-five.vercel.app/)**  
+*Description to be added*
 
 ---
 
