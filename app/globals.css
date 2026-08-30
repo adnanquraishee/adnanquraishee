@@ -115,6 +115,144 @@ html.lenis body {
   line-height: 0.9;
 }
 
+/* ---- Hero stats ----------------------------------------------------------
+   Three plates in a shared perspective. Each tilts toward the pointer around
+   its own centre and flips in on load; the numbers roll up from zero. The
+   server renders the final figures, so a stalled frame loop or reduced motion
+   still shows the right values. */
+
+@keyframes stat-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) rotateX(-42deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes stat-rule-in {
+  from { transform: scaleX(0) }
+  to   { transform: scaleX(1) }
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  perspective: 900px;
+}
+
+.stat-tile {
+  --rx: 0deg;
+  --ry: 0deg;
+  position: relative;
+  padding: 1rem 0.85rem 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.055) 0%,
+    rgba(255, 255, 255, 0.014) 45%,
+    transparent 100%
+  );
+  transform-style: preserve-3d;
+  transform: rotateX(var(--rx)) rotateY(var(--ry));
+  transition: border-color 500ms cubic-bezier(0.16, 1, 0.3, 1),
+    background 500ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+html.js .stat-tile {
+  animation: stat-in 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(0.75s + var(--i) * 0.11s);
+}
+
+.stat-tile:hover {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.02) 50%,
+    transparent 100%
+  );
+}
+
+/* Corner ticks, lifted off the plate so the depth reads. */
+.stat-tick {
+  position: absolute;
+  top: -1px;
+  width: 9px;
+  height: 9px;
+  border-top: 1px solid rgba(143, 180, 255, 0.75);
+  transform: translateZ(14px);
+}
+.stat-tick-l { left: -1px; border-left: 1px solid rgba(143, 180, 255, 0.75) }
+.stat-tick-r { right: -1px; border-right: 1px solid rgba(143, 180, 255, 0.75) }
+
+.stat-label {
+  display: block;
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8a8a8f;
+  transform: translateZ(10px);
+}
+
+.stat-value-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  transform: translateZ(30px);
+}
+
+.stat-value {
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 600;
+  line-height: 0.92;
+  letter-spacing: -0.045em;
+  color: #ffffff;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 6px 30px rgba(0, 0, 0, 0.7);
+}
+
+.stat-unit {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8a8a8f;
+}
+
+/* Accent underline that draws itself in. */
+.stat-rule {
+  position: absolute;
+  left: 0.85rem;
+  right: 0.85rem;
+  bottom: 0.7rem;
+  height: 1px;
+  transform-origin: left;
+  background: linear-gradient(90deg, rgba(143, 180, 255, 0.85), transparent);
+}
+
+html.js .stat-rule {
+  animation: stat-rule-in 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(1.05s + var(--i) * 0.11s);
+}
+
+@media (max-width: 480px) {
+  .stat-tile { padding: 0.8rem 0.65rem 0.95rem }
+  .stat-rule { left: 0.65rem; right: 0.65rem }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .stat-tile,
+  html.js .stat-rule { animation: none }
+  .stat-tile { transform: none }
+}
+
 /* ---- Project overlay -----------------------------------------------------
    A project opened over the running coil: a HUD pane held in front of the
    scene, not a flat sheet pasted over it. */

@@ -1,7 +1,7 @@
 "use client";
 
 import { site } from "@/content/site";
-import { projects } from "@/content/projects";
+import HeroStats from "./HeroStats";
 
 /**
  * Entrance is CSS keyframes (see globals.css) rather than JS-driven, so the
@@ -48,26 +48,7 @@ export default function Hero() {
             {site.intro}
           </p>
 
-          <dl className="grid grid-cols-3 gap-6 self-end font-mono text-[10px] uppercase tracking-[0.2em] text-muted">
-            <div>
-              <dt>Projects</dt>
-              <dd className="mt-2 font-sans text-2xl tracking-normal text-white">
-                {projects.length}
-              </dd>
-            </div>
-            <div>
-              <dt>Experience</dt>
-              <dd className="mt-2 font-sans text-2xl tracking-normal text-white">
-                14 mo
-              </dd>
-            </div>
-            <div>
-              <dt>Based in</dt>
-              <dd className="mt-2 font-sans text-2xl tracking-normal text-white">
-                BLR
-              </dd>
-            </div>
-          </dl>
+          <HeroStats />
         </div>
       </div>
 
