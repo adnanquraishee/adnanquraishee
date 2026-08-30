@@ -47,7 +47,7 @@ Real-time stock analysis platform for Indian equities with price forecasts and s
 Evaluates creative effectiveness by analyzing ad images and videos
 
 **BioQorp**  
-*Description to be added*
+It is a healthcare data management platform that allows users to create, search, and manage patient medical records with an intuitive web interface. It integrates synthetic patient data generation with a modern backend API to support clinical data analysis and record keeping.
 
 **PulseMonitor** – Clinical Decision Support  
 ML system predicting in-hospital cardiac-arrest risk with AI-generated explanations
@@ -65,7 +65,7 @@ Bilingual platform connecting workers with contractors, with wage validation
 Full-stack hidden-traitor game with 3D graphics and real-time server logic
 
 **[Brainfuel](https://brainfuel-five.vercel.app/)**  
-*Description to be added*
+It is an AI-powered homework solver that extracts questions from PDFs and generates professional, step-by-step solutions with properly formatted math and diagrams. It processes entire assignments and exports them as polished Word documents ready for submission.
 
 ---
 
