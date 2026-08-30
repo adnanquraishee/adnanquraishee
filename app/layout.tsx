@@ -24,6 +24,14 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  // Absolute URLs for OG tags. Vercel exposes the deployment host; the
+  // fallback keeps local builds from emitting relative social URLs.
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ??
+      (process.env.VERCEL_PROJECT_PRODUCTION_URL
+        ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+        : "http://localhost:3000")
+  ),
   title: {
     default: `${site.name} — ${site.role}`,
     template: `%s — ${site.name}`,
@@ -33,6 +41,14 @@ export const metadata: Metadata = {
     title: `${site.name} — ${site.role}`,
     description: site.intro,
     type: "website",
+    siteName: site.name,
+  },
+  twitter: {
+    // The large card is the difference between a link that shows the work
+    // and a link that shows a line of grey text.
+    card: "summary_large_image",
+    title: `${site.name} — ${site.role}`,
+    description: site.intro,
   },
 };
 

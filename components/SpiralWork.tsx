@@ -73,6 +73,9 @@ export default function SpiralWork() {
 
       const narrow = window.innerWidth < 900;
       const radius = narrow ? RADIUS_NARROW : RADIUS_WIDE;
+      // Fewer entries on screen at once on phones, where they would otherwise
+      // overlap into an unreadable stack.
+      const falloff = narrow ? 1.55 : FALLOFF;
       const head = progress * (total - 1);
 
       for (let i = 0; i < total; i++) {
@@ -89,7 +92,7 @@ export default function SpiralWork() {
         const y = u * STEP_Y;
 
         const dist = Math.abs(u);
-        const opacity = Math.max(0, 1 - Math.pow(dist / FALLOFF, 2));
+        const opacity = Math.max(0, 1 - Math.pow(dist / falloff, 2));
         // Distance also drives the card's own "focused" styling.
         const focus = Math.max(0, 1 - dist);
 
