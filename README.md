@@ -103,7 +103,7 @@ An animated portfolio showcasing selected projects built with Next.js, React, Th
 
 ## 🤝 Let's Connect
 
-- 📧 **Email**: lordadnanquraishee@gmail.com
+- 📧 **Email**: adnan.quraishee@gmail.com
 - 📱 **Phone**: +91-9511882401
 - 💼 **LinkedIn**: [adnanquraishee](https://linkedin.com/in/adnanquraishee)
 - 🐙 **GitHub**: [@adnanquraishee](https://github.com/adnanquraishee)
