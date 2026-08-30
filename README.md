@@ -5,112 +5,113 @@
 |___/   \_|\_| |_| |___|   \___/  \_,_||_|  \__,_|_|/__/_|_|\_| \___|___|
 ```
 
-# Hey, I'm Adnan Quraishee 👋
+# Adnan Quraishee
 
-**Full-Stack Developer** | **Creative Coder** | **3D Web Enthusiast**
+**AI/ML Engineer** | **Business Analytics** | **Full-Stack Developer**
 
-I build beautiful, high-performance web applications with a focus on user experience and cutting-edge technology. I specialize in combining sleek design with powerful backend systems.
-
----
-
-## 🎯 About Me
-
-I'm passionate about creating web experiences that are not just functional, but truly memorable. Whether it's crafting smooth animations, optimizing performance, or building scalable systems—I love the whole process. I have a particular interest in 3D graphics, interactive experiences, and pushing the boundaries of what's possible on the web.
-
-- 🚀 **Full-Stack Developer** with expertise in modern JavaScript/TypeScript ecosystems
-- 🎨 **Creative Developer** who enjoys blending design and code
-- ⚡ **Performance-Focused** — I care deeply about user experience and loading speeds
-- 🧠 **Problem Solver** — I love tackling complex technical challenges
+PGDM Business Analytics candidate with B.Tech in Artificial Intelligence. 14 months of IT consulting experience building automation workflows and AI-driven systems.
 
 ---
 
-## 💼 What I Do
+## 👨‍💼 About
 
-✨ **Frontend Development**
-- Modern React applications with Next.js
-- Interactive 3D web experiences using Three.js
-- Responsive, accessible, beautiful UI/UX
-- Smooth animations and micro-interactions
+I work at the intersection of AI/ML, data analytics, and product engineering. I'm particularly interested in building systems that solve real problems—whether that's automating business processes, making better financial decisions, or improving clinical outcomes through data.
 
-🔧 **Backend Development**
-- Node.js & TypeScript backend systems
-- Database design and optimization
-- API development and integration
-- Cloud deployment and DevOps
-
-🎮 **Creative Tech**
-- WebGL and GLSL shader programming
-- 3D graphics and visualization
-- Real-time rendering and optimization
-- Generative design and animation
+Currently pursuing a PGDM in Business Analytics (Minor: Finance) at Jagdish Sheth School of Management.
 
 ---
 
-## 🛠️ My Toolkit
+## 🛠️ Technical Skills
 
-**Languages:** JavaScript, TypeScript, Python, SQL, GLSL
+**Languages:** Python, C++, C, SQL
 
-**Frontend:** React, Next.js, Tailwind CSS, Three.js, React Three Fiber
+**Data & ML:** Machine Learning, NLP, Time-Series Forecasting, Data Cleaning, Statistical Analysis
 
-**Backend:** Node.js, Express, PostgreSQL, MongoDB
+**Analytics Tools:** Power BI, Tableau, Excel
 
-**Tools & Platforms:** Vercel, Git, Docker, Figma, Blender
+**Libraries:** Scikit-learn, TensorFlow, Pandas, NumPy, NLTK, Seaborn, Matplotlib
 
-**Specialties:** Full-stack development, 3D web graphics, performance optimization, creative coding
-
----
-
-## 🌐 Portfolio & Work
-
-**[→ See my work: adnanquraishee.vercel.app](https://adnanquraishee.vercel.app)**
-
-My portfolio features 9 full-scale case studies showcasing:
-- Complex technical implementations
-- Beautiful design and user experience
-- Problem-solving approach
-- Real-world impact
+**Full-Stack:** React, Python backend, SQL databases
 
 ---
 
-## 📈 Quick Snapshot
+## 💼 Professional Experience
 
-```
-🎯 Focus Areas      → Web Development, 3D Graphics, Creative Coding
-📦 Projects Built   → 9+ Full-Scale Applications
-🏆 Specializations  → Performance, UX Animation, System Design
-💡 Interests        → AI, Graphics Programming, Developer Experience
-```
+**Associate IT Consultant** @ ITC Infotech (Apr 2023 – Jun 2024)
+- Built WhatsApp automation workflows for alerts and customer communication
+- Implemented system integrations reducing processing time by 30%
+- Analyzed business processes to identify automation opportunities
+- Contributed to digital transformation initiatives
+
+---
+
+## 🚀 Key Projects
+
+**MoneyMood.ai** – AI Equity Intelligence Platform  
+Real-time stock analysis platform for Indian equities with price forecasts and screening tools
+
+**AdPulse** – AI Advertisement Analyzer  
+Evaluates creative effectiveness by analyzing ad images and videos
+
+**PulseMonitor** – Clinical Decision Support  
+ML system predicting in-hospital cardiac-arrest risk with AI-generated explanations
+
+**PortfolioBuilderX** – Resume-to-Portfolio Tool  
+Converts resume PDFs into animated portfolio websites using AI
+
+**MazdoorMitra** – Digital Contracting Platform  
+Bilingual platform connecting workers with contractors, with wage validation
+
+**Crooked Key** – Real-Time Multiplayer Game  
+Full-stack hidden-traitor game with 3D graphics and real-time server logic
+
+---
+
+## 🎓 Education
+
+**PGDM – Business Analytics** (Minor: Finance)  
+Jagdish Sheth School of Management, Bengaluru (2025–2027)
+
+**B.Tech – Artificial Intelligence** (7.75 CGPA)  
+G.H. Raisoni College of Engineering, Nagpur (2019–2023)
+
+**Certifications**
+- Business English Certificate Preliminary (B1) – Cambridge Assessment English (2020)
+- Football Analytics using Python – MAD About Sports (2021)
+
+---
+
+## 📊 Focus Areas
+
+- Machine Learning & NLP
+- Business Problem Structuring
+- Data Analytics & Forecasting
+- Process Automation
+- Product Development
+
+---
+
+## 🌐 Portfolio
+
+**[Visit my work → adnanquraishee.vercel.app](https://adnanquraishee.vercel.app)**
+
+An animated portfolio showcasing selected projects built with Next.js, React, Three.js, and TypeScript.
 
 ---
 
 ## 🤝 Let's Connect
 
-I'm always interested in:
-- Collaborating on interesting projects
-- Discussing web development & creative tech
-- Sharing knowledge and learning from others
-- Building something awesome together
-
-**Reach out:**
-
-- 🌐 **Portfolio**: [adnanquraishee.vercel.app](https://adnanquraishee.vercel.app)
+- 📧 **Email**: lordadnanquraishee@gmail.com
+- 📱 **Phone**: +91-9511882401
 - 💼 **LinkedIn**: [adnanquraishee](https://linkedin.com/in/adnanquraishee)
 - 🐙 **GitHub**: [@adnanquraishee](https://github.com/adnanquraishee)
-- 📧 **Email**: lordadnanquraishee@gmail.com
-
----
-
-## 🌟 Recent Work
-
-Check out my latest projects and case studies on my portfolio. Each project tells a story of challenge, innovation, and impact.
-
-→ **[Explore my portfolio](https://adnanquraishee.vercel.app)**
+- 🌐 **Portfolio**: [adnanquraishee.vercel.app](https://adnanquraishee.vercel.app)
 
 ---
 
 <div align="center">
 
-**Let's build something extraordinary together.**
+Always exploring the intersection of AI, data, and product.
 
 ![Visitors](https://komarev.com/ghpvc/?username=adnanquraishee&color=blueviolet)
 
