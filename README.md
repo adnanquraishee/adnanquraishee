@@ -53,7 +53,7 @@ It is a healthcare data management platform that allows users to create, search,
 ML system predicting in-hospital cardiac-arrest risk with AI-generated explanations
 
 **[KnowYourCourse](https://kyc-ruby-tau.vercel.app/)**  
-*Description to be added*
+It's a chatbot for a business school's course catalogue — you ask things like "how many credits is the internship?" and it answers in plain English, showing which pages of the catalogue it got that from.
 
 **[PortfolioBuilderX](https://portfolio-builder-x-rho.vercel.app/)** – Resume-to-Portfolio Tool  
 Converts resume PDFs into animated portfolio websites using AI
