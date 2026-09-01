@@ -35,7 +35,7 @@ export const projects: Project[] = [
     role: "Product & ML",
     domain: "Fintech / ML",
     accent: ["#0f8a5f", "#0a2f24"],
-    liveUrl: "",
+    liveUrl: "https://moneymoodai.vercel.app/",
     repoUrl: "https://github.com/adnanquraishee/moneymood.ai",
     summary:
       "An AI-powered stock-analysis platform delivering real-time market insights, price forecasts, and investment screening for Indian equities — a React frontend over a Python backend serving institutional-grade analytics to retail investors.",
