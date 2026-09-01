@@ -40,10 +40,10 @@ Currently pursuing a PGDM in Business Analytics (Minor: Finance) at Jagdish Shet
 
 ## 🚀 Key Projects
 
-**MoneyMood.ai(https://moneymoodai.vercel.app/)** – AI Equity Intelligence Platform  
+**[MoneyMood.ai](https://moneymoodai.vercel.app/)** – AI Equity Intelligence Platform  
 Real-time stock analysis platform for Indian equities with price forecasts and screening tools
 
-**[AdPulse](https://ad-pulse-one.vercel.app/)** – AI Advertisement Analyzer  
+**[AdPulse](https://kyc-ruby-tau.vercel.app/)** – AI Advertisement Analyzer  
 Evaluates creative effectiveness by analyzing ad images and videos
 
 **BioQorp**  
