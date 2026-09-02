@@ -60,15 +60,15 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "adpulse",
-    title: "AdPulse",
-    tagline: "AI advertisement analyzer",
+    slug: "adcriva",
+    title: "AdCrIVA",
+    tagline: "Advertisement Creative Value Intelligence Analyzer",
     year: "2025",
     role: "ML & Frontend",
     domain: "Computer Vision / MarTech",
     accent: ["#e0563f", "#3a1108"],
-    liveUrl: "https://ad-pulse-one.vercel.app/",
-    repoUrl: "https://github.com/adnanquraishee/AdPulse",
+    liveUrl: "https://adcriva.vercel.app/",
+    repoUrl: "https://github.com/adnanquraishee/AdCrIVA",
     summary:
       "An AI tool that analyses advertisements — images and video — in detail to evaluate their effectiveness, scoring what is actually in the creative rather than offering a surface-level review.",
     problem:
